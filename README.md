@@ -4,7 +4,7 @@
 ## Prerequisites
 Node.js installed on your development machine.
 Either a personal Microsoft account with a mailbox on Outlook.com, or a Microsoft work or school account.
-
+create an env file with your environment variables and go to /src/lib/microsoftGraph/config.ts
 
 
 Project is written in typescript to understand what values are being passed and expected from the Microsoft Graph API.
