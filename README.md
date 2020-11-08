@@ -25,10 +25,10 @@ Set Name to what you see appropriate for the registration.
 Set Supported account types to Accounts in any organizational directory and personal Microsoft accounts.
 Under Redirect URI, set the first drop-down to Single-page application (SPA) and set the value to http://localhost:3000.
 
-![alt text](https://gyazo.com/2799b27c3c27502a5f0674afee45a892)
+![alt text](https://gyazo.com/2799b27c3c27502a5f0674afee45a892.png)
 
 Choose Register. On the Vue Graph Tutorial page, copy the value of the Application (client) ID and save it, you will need it in the next step.
-![alt text](https://gyazo.com/f1a1bbf30297a8b0afa9e0f8567d49cd)
+![alt text](https://gyazo.com/f1a1bbf30297a8b0afa9e0f8567d49cd.png)
 
 ## Project setup
 ```
