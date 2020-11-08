@@ -40,6 +40,7 @@ ssoSilent
 
 import { UserAgentApplication, AuthResponse } from "msal";
 
+//error handler
 const isInteractionRequired = (error: any) => {
   if (!error.message || error.message.length <= 0) {
     return false;
@@ -52,6 +53,8 @@ const isInteractionRequired = (error: any) => {
   );
 };
 
+
+//get token function
 export const getAccessToken = (
   userAgentApplication: UserAgentApplication,
   scopes: Array<string>

@@ -1,3 +1,5 @@
+//state, interfaces, types used for this module
+
 import { useConfig } from '@/lib/microsoftGraph/config';
 import { UserAgentApplication } from "msal";
 

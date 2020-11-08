@@ -2,6 +2,8 @@ import { MutationTree } from "vuex";
 import { MutationTypes } from "./mutations-types";
 import { State, Auth } from "./state";
 
+//mutations  interface and implementation
+
 export type Mutations<S = State> = {
   [MutationTypes.GET_USER_PROFILE_SUCCESS](state: S, payload: any): Auth;
   [MutationTypes.GET_USER_PROFILE_ERROR](state: S, payload: any): Auth;

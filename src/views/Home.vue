@@ -33,11 +33,10 @@
 </template>
 
 <script lang="ts">
+//import actions and getters
+// use those functions here but logic is else where
 import { Component, Vue } from "vue-property-decorator";
-
-import { useGraph } from "../lib/microsoftGraph/config";
 import {
-  useMicrosoftGraphState,
   useMicrosoftGraphActions,
   useMicrosoftGraphGetters,
 } from "@/store";

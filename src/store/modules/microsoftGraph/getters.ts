@@ -3,7 +3,7 @@ import { RootState } from "../../state";
 
 import microsoftGraphState, { AuthType } from "./state";
 
-//get auth and userAgentApplication
+//getters interface and implementation
 
 type MicrosoftGraphGettersCtx<T> = (
   state: typeof microsoftGraphState,

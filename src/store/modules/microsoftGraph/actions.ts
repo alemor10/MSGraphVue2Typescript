@@ -14,6 +14,8 @@ import { useConfig } from "@/lib/microsoftGraph/config";
 
 type MicrosoftGraphActionCtx = ActionContext<typeof State, RootState>;
 
+
+//actions  interface and implementation
 export interface MicrosoftGraphActions
   extends ActionTree<typeof State, RootState> {
   setAccessToken: (

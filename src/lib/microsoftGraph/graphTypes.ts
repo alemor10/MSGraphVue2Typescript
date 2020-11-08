@@ -1,3 +1,6 @@
+// type declarations
+
+
 interface GraphMessageBody {
   contentType?: string;
   content: string;

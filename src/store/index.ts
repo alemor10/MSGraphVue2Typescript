@@ -1,3 +1,6 @@
+//declaration of vuex store
+
+
 import Vue from 'vue';
 import Vuex, { StoreOptions } from 'vuex';
 import { createNamespacedHelpers } from 'vuex-composition-helpers';

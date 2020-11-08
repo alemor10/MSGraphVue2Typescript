@@ -2,15 +2,9 @@ import {
   useMicrosoftGraphGetters,
 } from "@/store";
 
-export const useGraph = () => {
-  const auth = useMicrosoftGraphGetters(["getAuth"]).getAuth.value
-  const userAgentApplication = useMicrosoftGraphGetters(["getUserAgentApplication"]).getUserAgentApplication.value
 
-  return {
-    auth,
-    userAgentApplication
-  };
-};
+
+// this can be moved somewhere else but this is where env variables are read
 
 export const useConfig = () => {
   const REDIRECT_URI = "http://localhost:3000";
